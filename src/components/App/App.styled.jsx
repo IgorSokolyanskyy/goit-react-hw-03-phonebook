@@ -28,3 +28,20 @@ export const P = styled.p`
   margin-bottom: 8px;
   color: #ff3737;
 `;
+
+// componentDidMount() {
+//   const contacts = localStorage.getItem('contacts');
+//   const parsedContacts = JSON.parse(contacts);
+
+//   if (parsedContacts) {
+//     this.setState({ contacts: parsedContacts });
+//   }
+// }
+
+// componentDidUpdate(_, prevState) {
+//   // const contacts = this.state;
+
+//   if (this.state.contacts !== prevState.contacts) {
+//     localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
+//   }
+// }
